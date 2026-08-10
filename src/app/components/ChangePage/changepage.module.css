@@ -1,0 +1,23 @@
+.pagination {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    margin-top: 32px;
+    width: 100%;
+}
+
+.link {
+    padding: 10px 28px;
+    border-radius: 8px;
+    background-color: #1C2526;
+    border: 1px solid #6B5EAE;
+    color: aliceblue;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+.link:hover {
+    background-color: #6B5EAE;
+    transform: translateY(-2px);
+}

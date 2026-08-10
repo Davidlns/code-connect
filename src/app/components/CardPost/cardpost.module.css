@@ -1,0 +1,53 @@
+.container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: stretch;
+    align-content: flex-start;
+    flex: 1;
+    gap: 10px;
+}
+
+.card {
+    box-sizing: border-box;
+    width: calc(50% - 5px);
+    background-color: #1C2526;
+    border-radius: 16px;
+    border: 1px solid #6B5EAE;
+    overflow: hidden;
+    padding: 25px;
+    color: aliceblue;
+    height: auto;
+}
+
+.card img {
+    width: 100%;
+}
+
+.card footer {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.card footer img {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+
+.card footer ul {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.link {
+    display: block;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+

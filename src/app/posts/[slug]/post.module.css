@@ -1,0 +1,87 @@
+.content {
+    flex: 1;
+    align-self: flex-start;
+}
+
+.postCard {
+    box-sizing: border-box;
+    background-color: #1C2526;
+    border: 1px solid #6B5EAE;
+    border-radius: 16px;
+    padding: 25px;
+    margin: 0 0 24px;
+}
+
+.cover {
+    margin: 0 0 24px;
+    border-radius: 16px;
+    overflow: hidden;
+}
+
+.cover img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.title {
+    color: aliceblue;
+    margin: 0 0 16px;
+}
+
+.body {
+    color: #B7C0C3;
+    line-height: 1.6;
+    margin: 0 0 24px;
+}
+
+.author {
+    margin: 0 0 32px;
+}
+
+.author ul {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    color: aliceblue;
+}
+
+.author img {
+    border-radius: 50%;
+}
+
+.badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    border: 1px solid #6B5EAE;
+    border-radius: 999px;
+    padding: 6px 16px;
+    color: #B69EFF;
+    margin: 0 0 16px;
+}
+
+.codeLabel {
+    display: block;
+    color: aliceblue;
+    font-weight: 600;
+    margin: 0 0 8px;
+}
+
+.markdown {
+    background-color: #fff;
+    color: #1C2526;
+    border-radius: 16px;
+    padding: 24px;
+    max-height: 320px;
+    overflow-x: auto;
+    overflow-y: auto;
+    border: 1px solid #6B5EAE;
+}
+
+.markdown pre {
+    margin: 0;
+}

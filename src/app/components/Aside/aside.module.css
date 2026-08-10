@@ -1,0 +1,7 @@
+.aside {
+    border-radius: 8px;
+    background: #171D1F;
+    padding: 40px 16px;
+    position: sticky;
+    top: 20px;
+}
