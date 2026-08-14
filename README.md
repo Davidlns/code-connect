@@ -117,3 +117,6 @@ Itens conhecidos que ficaram fora do escopo deste curso e podem ser retomados fu
 - [ ] Adicionar barra de busca e menu de navegação lateral completo (Feed, Perfil, Sobre nós, Sair).
 - [ ] Sintaxe colorida real nos blocos de código (ex: `rehype-highlight` ou `shiki`), hoje o Markdown é convertido para HTML sem highlighting.
 - [ ] Substituir a API mockada (json-server) por um backend real.
+
+
+> Nota de teste: PR simulado para praticar o fluxo Git.
