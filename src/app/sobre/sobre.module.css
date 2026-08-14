@@ -1,0 +1,41 @@
+.content {
+    flex: 1;
+    align-self: flex-start;
+    color: aliceblue;
+}
+
+.title {
+    margin: 0 0 24px;
+}
+
+.body {
+    color: #B7C0C3;
+    line-height: 1.6;
+    margin: 0 0 32px;
+}
+
+.subtitle {
+    margin: 0 0 12px;
+    font-size: 1.2rem;
+}
+
+.list {
+    color: #B7C0C3;
+    line-height: 1.8;
+    margin: 0 0 32px;
+    padding-left: 20px;
+}
+
+.back {
+    display: inline-block;
+    color: #B69EFF;
+    text-decoration: none;
+    padding: 8px 0;
+    border-bottom: 1px solid transparent;
+    transition: color 0.2s ease, border-color 0.2s ease;
+}
+
+.back:hover {
+    color: aliceblue;
+    border-bottom-color: aliceblue;
+}
