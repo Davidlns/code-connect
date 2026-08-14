@@ -1,6 +1,11 @@
 import Link from "next/link"
 import styles from "./sobre.module.css"
 
+export const metadata = {
+    title: "Sobre",
+    description: "Página institucional do Code Connect, com informações sobre o projeto."
+}
+
 export default function Sobre() {
     return (
         <div className={styles.content}>
