@@ -13,3 +13,8 @@ body {
   gap: 28px;
   min-height: 100vh;
 }
+
+.content-column {
+  flex: 1;
+  min-width: 0;
+}
